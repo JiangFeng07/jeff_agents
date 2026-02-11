@@ -34,7 +34,7 @@ class MinueruClient:
         'formula_enable': 'true'
     }
 
-    def __init__(self, base_url: Optional[str] = None, timeout: int = 30) -> None:
+    def __init__(self, base_url: Optional[str] = None, timeout: int = 60*6) -> None:
         """初始化 Minueru 客户端
 
         Args:
